@@ -12,7 +12,7 @@ ACMEDNS_URL = "https://acmedns.usu.edu"
 STORAGE_PATH = "/etc/letsencrypt/acmedns.json"
 # Whitelist for address ranges to allow the updates from
 # Example: ALLOW_FROM = ["192.168.10.0/24", "::1/128"]
-ALLOW_FROM = ["129.123.0.0/16". "144.39.0.0/16"]
+ALLOW_FROM = ["129.123.0.0/16", "144.39.0.0/16"]
 # Force re-registration. Overwrites the already existing acme-dns accounts.
 FORCE_REGISTER = False
 
